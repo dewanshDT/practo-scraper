@@ -1,0 +1,21 @@
+# version: "3.8"
+
+services:
+  scraper:
+    build: .
+    container_name: practo-scraper
+    volumes:
+      - ./output:/app/output
+      - ./scraper/cities.txt:/app/scraper/cities.txt
+    env_file:
+      - .env
+    restart: on-failure
+    networks:
+      - scraper-net
+
+networks:
+  scraper-net:
+    driver: bridge
+
+volumes:
+  output:
