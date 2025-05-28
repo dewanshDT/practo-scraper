@@ -18,7 +18,8 @@ MAX_PAGES_PER_CITY = int(os.getenv("MAX_PAGES_PER_CITY", 5))
 REQUEST_DELAY_MIN = float(os.getenv("REQUEST_DELAY_MIN", 2))
 REQUEST_DELAY_MAX = float(os.getenv("REQUEST_DELAY_MAX", 5))
 MAX_RETRIES = int(os.getenv("MAX_RETRIES", 3))
-OUTPUT_FILE = os.path.join("output", os.getenv("OUTPUT_FILE", "pediatricians_data.csv"))
+OUTPUT_DIR = os.getenv("OUTPUT_DIR", "output")  # Custom output directory
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, os.getenv("OUTPUT_FILE", "pediatricians_data.csv"))
 TIMESTAMP_FORMAT = os.getenv("TIMESTAMP_FORMAT", "%Y-%m-%d_%H-%M-%S")
 USER_AGENT_ROTATION = os.getenv("USER_AGENT_ROTATION", "true").lower() == "true"
 HEADLESS = os.getenv("HEADLESS", "true").lower() == "true"
@@ -511,6 +512,8 @@ def main():
         return
     
     logger.info(f"🚀 Starting scraper for {len(cities)} cities")
+    logger.info(f"📁 Output directory: {OUTPUT_DIR}")
+    logger.info(f"📄 Output file: {OUTPUT_FILE}")
     
     # Load existing data for deduplication
     existing_data = load_existing_data(OUTPUT_FILE)

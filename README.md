@@ -104,6 +104,7 @@ REQUEST_DELAY_MAX=5.0         # Maximum delay between requests
 MAX_RETRIES=3                 # Max retry attempts on errors
 
 # Output Settings
+OUTPUT_DIR=output                    # Output directory (e.g., /mnt/truenas for NAS)
 OUTPUT_FILE=pediatricians_data.csv  # Output filename
 TIMESTAMP_FORMAT=%Y-%m-%d_%H-%M-%S  # Timestamp format
 
