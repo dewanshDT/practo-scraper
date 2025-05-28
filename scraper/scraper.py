@@ -294,74 +294,36 @@ def extract_doctor_data(card, city):
         except (AttributeError, PlaywrightTimeoutError) as e:
             logger.debug(f"Experience extraction failed: {str(e)}")
         
-        # Extract phone number - improved with button clicking
+        # Extract phone number - simplified without button clicking
         phone = "N/A"
         
         if EXTRACT_PHONE:
             try:
-                # Look for the call button within this card
-                call_button = card.query_selector('[data-qa-id="call_button"]')
-                if call_button:
-                    logger.info(f"Found call button for {name}, attempting to click...")
-                    
-                    # Scroll the button into view if needed
+                # Look for visible phone numbers without clicking buttons
+                phone_selectors = [
+                    '[data-qa-id="phone_number"]',
+                    '.c-vn__number',
+                    '.phone-number',
+                    '[data-qa-id="phone"]'
+                ]
+                
+                for selector in phone_selectors:
                     try:
-                        call_button.scroll_into_view_if_needed()
-                        # Click the call button
-                        call_button.click()
-                        logger.info("Call button clicked successfully")
-                        
-                        # Wait a moment for the content to load
-                        page.wait_for_timeout(3000)
-                        
-                        # Look for phone number in the page after clicking
-                        try:
-                            # Try to find the phone number element that should have appeared
-                            phone_element = page.query_selector('[data-qa-id="phone_number"]')
-                            if not phone_element:
-                                # Also try within the card's CTA block
-                                phone_element = card.query_selector('[data-qa-id="phone_number"]')
-                            if not phone_element:
-                                # Try the class-based selector from your example
-                                phone_element = page.query_selector('.c-vn__number[data-qa-id="phone_number"]')
-                            
-                            if phone_element:
-                                phone_text = phone_element.inner_text().strip()
-                                if phone_text:
-                                    phone = phone_text
-                                    logger.info(f"Successfully extracted phone: {phone}")
-                                else:
-                                    logger.warning("Phone element found but empty")
-                            else:
-                                logger.warning("Phone element not found after clicking")
-                                
-                        except Exception as e:
-                            logger.warning(f"Error finding phone element: {str(e)}")
-                            
+                        phone_element = card.query_selector(selector)
+                        if phone_element:
+                            phone_text = phone_element.inner_text().strip()
+                            if phone_text:
+                                phone = phone_text
+                                logger.debug(f"Found phone: {phone}")
+                                break
                     except Exception as e:
-                        logger.warning(f"Error clicking call button: {str(e)}")
+                        logger.debug(f"Phone selector {selector} failed: {str(e)}")
+                        continue
                         
-                else:
-                    logger.debug("No call button found in this card")
-                    
             except Exception as e:
                 logger.warning(f"Error during phone extraction: {str(e)}")
         else:
             logger.debug("Phone extraction disabled")
-        
-        # Fallback: try to find phone number without clicking (in case it's already visible)
-        if phone == "N/A":
-            try:
-                phone_element = card.query_selector('[data-qa-id="phone_number"]')
-                if not phone_element:
-                    phone_element = page.query_selector('[data-qa-id="phone_number"]')
-                if phone_element:
-                    phone_text = phone_element.inner_text().strip()
-                    if phone_text:
-                        phone = phone_text
-                        logger.debug(f"Found phone without clicking: {phone}")
-            except Exception as e:
-                logger.debug(f"Fallback phone extraction failed: {str(e)}")
         
         data = {
             "city": city,
