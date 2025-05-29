@@ -1,22 +1,40 @@
 City,Clinic,Location,Fee,Experience,Phone,Timestamp
-mumbai,Smile Children Clinic,N/A,2000,40 years,N/A,2025-05-28 21:41:33
-mumbai,Dr. Prashant Gandhi,"Prisha Medical Centre, Kandivali East, Mumbai",1200,30 years,N/A,2025-05-28 21:42:40
-mumbai,Dr. Abhinav Pandey,"Health First Clinic, Kandivali East, Mumbai",1000,15 years,N/A,2025-05-28 21:43:10
-mumbai,Dr. Rahul Shukla,"Shiv Om Hospital, Mira Road, Mumbai",800,12 years,N/A,2025-05-28 21:43:10
-mumbai,Dr. Shilpa Nayak,"Asthma Allergy Clinic, Andheri West, Mumbai",1500,22 years,N/A,2025-05-28 21:43:11
-mumbai,Dr. Lokesh Banodkar,"Dr. Lokesh Banodkar Childrens Clinic, Ghatkopar East, Mumbai",1000,26 years,N/A,2025-05-28 21:43:11
-mumbai,Dr. Nimish Kulkarni,"Nextgen Paediatrics, Bandra West, Mumbai",1500,14 years,N/A,2025-05-28 21:43:11
-mumbai,Dr. Aditi Birje,"Shree Gurumaauli Clinic, Borivali, Mumbai",1000,10 years,N/A,2025-05-28 21:43:11
-mumbai,Dr. Bharti Rajendra Dhuri,"Dr. Bhartis Surudha Child Care Clinic, Mira Road, Mumbai",700,7 years,N/A,2025-05-28 21:43:12
-mumbai,Dr. Shagun Shah Gandbhir,"First Steps Clinic, Kalachowki, Mumbai",1000,10 years,N/A,2025-05-28 21:43:12
-mumbai,Dr. Chhaya Kushwaha,"Care  Cure Medical Centre, Chembur, Mumbai",1200,35 years,N/A,2025-05-28 21:43:12
-mumbai,Dr. Mythily Sindhur Boreddy,"Baby Shark Childrens Clinic, Powai, Mumbai",800,12 years,N/A,2025-05-28 21:43:13
-mumbai,Dr. Ratna Gore Lalwani,"Adi Arogyam Suman Ramesh Tulsiani Hospital, Vikhroli, Mumbai",1000,26 years,N/A,2025-05-28 21:43:13
-mumbai,Dr. Kesha Nayak,"Asha Maternity  General Hospital, Malad East, Mumbai",800,7 years,N/A,2025-05-28 21:43:13
-mumbai,Dr. Siddharth Kannan,"Kalyani Child Care  Allergy Asthma Centre, Kandivali East, Mumbai",800,12 years,N/A,2025-05-28 21:43:13
-mumbai,Dr. Mili S. Joshi,"Dr. Mili Joshis Clinic, Santacruz East, Mumbai",1000,28 years,N/A,2025-05-28 21:43:14
-mumbai,Dr. Tanushri Mukherjee,"Cloudnine Hospital, Malad West, Mumbai",1300,19 years,N/A,2025-05-28 21:43:14
-mumbai,Dr. Amit Ashok Karajagi,"Adi Arogyam Suman Ramesh Tulsiani Hospital, Vikhroli, Mumbai",1000,14 years,N/A,2025-05-28 21:43:14
-mumbai,Dr. Udani Amish,"Cloudnine Hospital, Malad West, Mumbai",1350,23 years,N/A,2025-05-28 21:43:14
-mumbai,Dr. Shruti Avinash Bajaj,"Cloudnine Hospital, Malad West, Mumbai",3600,17 years,N/A,2025-05-28 21:43:15
-mumbai,Dr. Piyush Sureshkumar Shah,"Cloudnine Hospital, Malad West, Mumbai",1300,20 years,N/A,2025-05-28 21:43:15
+agra,Dr. Sameer Sharma,"Param Child Care, Tajganj, Agra",250,14 years,N/A,2025-05-29 03:50:07
+agra,Dr. Amit Saxena,"Dr. Saxena Multispeciality Clinic, Nehru Nagar, Agra",500,22 years,N/A,2025-05-29 03:50:07
+agra,Dr. Neha Garg,"Dr Neha Gargs Clinic, Avas Vikas Colony, Agra",250,15 years,N/A,2025-05-29 03:50:07
+agra,Dr. R. N. Goel,"Agra Hospital, Civil Line, Agra",150,51 years,N/A,2025-05-29 03:50:07
+agra,Dr. Arun Jain,"Dr. Arun Child Hospital, Shahaganj, Agra",400,31 years,N/A,2025-05-29 03:50:07
+agra,Dr. J. N. Tondon,"Dr. J. N. Tandon, Shahaganj, Agra",200,36 years,N/A,2025-05-29 03:50:07
+agra,Dr. U. P. S. Mehta,"Family Clinic, Rajpur, Agra",200,45 years,N/A,2025-05-29 03:50:07
+agra,Dr. K. B. Shani,"Dr. K. B. Sahnis Clinic, Agra, Agra",100,50 years,N/A,2025-05-29 03:50:07
+agra,Dr. Deepak Kapoor,"Dr. Deepak Kapoor Clinic, Civil Line, Agra",300,37 years,N/A,2025-05-29 03:50:07
+agra,Dr. Girish Narayan Gupta,"Vijay Nagar Hospital, Civil Line, Agra",200,50 years,N/A,2025-05-29 03:50:07
+agra,Dr. Premashish Mazumdar,"Multi Speciality Clinic, Civil Line, Agra",500,18 years,N/A,2025-05-29 03:50:47
+agra,Dr. Nidhi Agarwal,"Satyam Hospital, Kamla Nagar, Agra",500,29 years,N/A,2025-05-29 03:50:48
+agra,Dr. Subash Mittal,"Mittal Hospital, Kheria, Agra",200,37 years,N/A,2025-05-29 03:50:48
+agra,Dr. Rahul Pengoria,"Dr. Pengoria Hospital, Shaheed Nagar, Agra",200,18 years,N/A,2025-05-29 03:50:48
+agra,Dr. Avadhesh Kumar Gupta,"Dr. Avadhesh Kumar Guptas Clinic, Avas Vikas Colony, Agra",150,29 years,N/A,2025-05-29 03:50:48
+agra,Dr. Kshitij Sharma,"Dr R.D. Sharma Clinic, Raja Mandi, Agra",200,16 years,N/A,2025-05-29 03:50:48
+agra,Dr. Mukesh Bhardwaj,"Bhardwaj Child And Dental Clinic, Arjun Nagar, Agra",200,13 years,N/A,2025-05-29 03:50:48
+agra,Dr. Mukesh Baghel,"Dr Mukesh Kumar Baghel, Tajganj, Agra",300,11 years,N/A,2025-05-29 03:50:48
+agra,Dr. Reshu Agarwal,"Child Care Clinic, Delhi Gate, Agra",300,13 years,N/A,2025-05-29 03:50:48
+agra,Dr. Ajay Kalra,"Dr. Kalaras - Child Health Consultants, T.P. Nagar, Agra",N/A,45 years,N/A,2025-05-29 03:50:48
+agra,Dr. Sonia Bhatt,"Urocare Clinic, Delhi Gate, Agra",400,23 years,N/A,2025-05-29 03:50:48
+agra,Dr. L.K. Garg,"Dr L K Garg Pediatric Clinic, Khandari, Agra",300,20 years,N/A,2025-05-29 03:50:48
+agra,Dr. Abhaya Yadav,"Dr. Abhay Yadav, Gokulpura, Agra",150,23 years,N/A,2025-05-29 03:50:48
+agra,Dr. Unnat Kulshrestra,"Dr. Unnat Kulshrestha, Tajganj, Agra",150,35 years,N/A,2025-05-29 03:50:48
+agra,Dr. Atul Bansal,"Dr. Atul Bansals Clinic - Sikandra, Sikandra, Agra",150,20 years,N/A,2025-05-29 03:50:48
+agra,Dr. Harendra Mohniya,"Dr. Harendra Mohniya Clinic, Tajganj, Agra",150,40 years,N/A,2025-05-29 03:50:48
+agra,Dr. Jaswant Singh Chahar,"Chahar Child Care Center, Kheria Airport, Agra",100,13 years,N/A,2025-05-29 03:50:48
+agra,Dr. Malay Gupta,"Pushpam Mother  Child Health Care Centre, Sikandra, Agra",400,22 years,N/A,2025-05-29 03:50:48
+agra,Dr. Vishal Gupta,"Dr. Vishal Guptas Clinic, Civil Line, Agra",300,22 years,N/A,2025-05-29 03:50:48
+agra,Dr. R. S. Bhadhoria,"Bhadauria Child Care Centre, Kheria, Agra",150,20 years,N/A,2025-05-29 03:50:48
+agra,Dr. Prakhar Mohniya,"Mohniya Newborn and Child Hospital, Shaheed Nagar, Agra",300,9 years,N/A,2025-05-29 03:51:26
+agra,Dr. Puja Agarwal,"DR. PUJA AGARWAL CLINIC, Gurki Mandi, Agra",300,23 years,N/A,2025-05-29 03:51:26
+agra,Dr. Saurabh Singh,"Kilkari Maternity and Child Care Clinic, Kalindi Vihar, Agra",200,14 years,N/A,2025-05-29 03:51:26
+agra,Dr. Arun Prakash Gupta,"Arun Prakash Gupta Clinic, Ram Bagh, Agra",N/A,45 years,N/A,2025-05-29 03:51:26
+agra,Dr. Swati Dwivedi,"Dr. Sangeeta Mother And Child Care Centre, Sikandra, Agra",200,13 years,N/A,2025-05-29 03:51:26
+agra,Dr. Preeti Jain,"Dr Anurag Jains Clinic, Delhi Gate, Agra",400,18 years,N/A,2025-05-29 03:51:27
+agra,Dr. Abhishek Gupta,"Gupta Child Care And Hospital, Trans Yamuna Colony, Agra",N/A,20 years,N/A,2025-05-29 03:51:27
+agra,Dr. Akansha Arora,"Ujala Cygnus Rainbow Hospital, Sikandra, Agra",400,11 years,N/A,2025-05-29 03:51:27
+agra,Dr. Sajal Gupta,"Fh Medical College Etmadpur Agra, Etmadpur, Agra",300,7 years,N/A,2025-05-29 03:51:27
